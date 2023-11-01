@@ -1,0 +1,372 @@
+/* Add this CSS rule to make text unselectable */
+.unselectable {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("52.jpg") center/cover no-repeat;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Apply the unselectable class to the elements you want to make unselectable */
+.div,
+.img,
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.column,
+.div-6,
+.img-2,
+.div-7,
+.div-8,
+.column-2,
+.div-9,
+.div-10,
+.div-11,
+.div-12,
+.column-3,
+.div-13,
+.div-14,
+.div-15,
+.column-4,
+.div-16,
+.column-5,
+.div-17,
+.div-18,
+.div-19,
+.div-20 {
+  user-select: none;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  min-height: 1080px;
+  padding: 0 20px;
+}
+
+.img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.div-2 {
+  position: relative;
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+  backdrop-filter: blur(2px);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px;
+  padding: 50px 50px 50px 50px;
+}
+
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+    margin: 40px 10px 40px 0;
+  }
+}
+/* ... The rest of your CSS rules */
+.div-3 {
+  align-self: stretch;
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    max-width: 100%;
+  }
+}
+.div-4 {
+  align-self: center;
+  width: 100%;
+  max-width: 1698px;
+}
+@media (max-width: 991px) {
+  .div-4 {
+    max-width: 100%;
+  }
+}
+.div-5 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 26%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div-6 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    margin-top: 40px;
+  }
+}
+.img-2 {
+  aspect-ratio: 0.87;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+  border-radius: 30px;
+}
+.div-7 {
+  color: #fff;
+  align-self: center;
+  margin-top: 38px;
+  text-wrap: nowrap;
+  font: 300 50px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    font-size: 40px;
+    text-wrap: initial;
+  }
+}
+.div-8 {
+  color: #fff;
+  align-self: center;
+  margin-top: 5px;
+  text-wrap: nowrap;
+  font: 700 30px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-8 {
+    text-wrap: initial;
+  }
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 74%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+.div-9 {
+  display: flex;
+  margin-top: 6px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-9 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-10 {
+  color: #fff;
+  text-align: justify;
+  align-self: stretch;
+  font: 300 30px Inter, sans-serif;
+  overflow: hidden;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@media (max-width: 991px) {
+  .div-10 {
+    max-width: 100%;
+    margin-right: 2px;
+  }
+}
+.div-11 {
+  align-self: stretch;
+  margin-top: 65px;
+}
+@media (max-width: 991px) {
+  .div-11 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-12 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-12 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column-3 {
+    width: 100%;
+  }
+}
+.div-13 {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-13 {
+    max-width: 100%;
+    margin-top: 35px;
+  }
+}
+.div-14 {
+  color: #fff;
+  align-self: start;
+  text-wrap: nowrap;
+  font: 300 50px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-14 {
+    font-size: 40px;
+    text-wrap: initial;
+  }
+}
+.div-15 {
+  color: #fff;
+  align-self: start;
+  margin-top: 58px;
+  font: 300 30px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-15 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.column-4 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 0%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-4 {
+    width: 100%;
+  }
+}
+.div-16 {
+  background-color: #fff;
+  width: 1px;
+  height: 440px;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .div-16 {
+    margin-top: 23px;
+  }
+}
+.column-5 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-5 {
+    width: 100%;
+  }
+}
+.div-17 {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    max-width: 100%;
+    margin-top: 35px;
+  }
+}
+.div-18 {
+  color: #fff;
+  align-self: start;
+  text-wrap: nowrap;
+  font: 300 50px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-18 {
+    max-width: 100%;
+    font-size: 40px;
+    text-wrap: initial;
+  }
+}
+.div-19 {
+  color: #fff;
+  max-width: 349px;
+  align-self: start;
+  margin-top: 58px;
+  font: 300 30px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-19 {
+    margin-top: 40px;
+  }
+}
+.div-20 {
+  color: #fff;
+  max-width: 448px;
+  align-self: end;
+  margin-top: 192px;
+  font: 300 30px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-20 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}

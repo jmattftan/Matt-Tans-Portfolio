@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url("52.jpg") center/cover no-repeat; */
+  font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: whitesmoke;
+  user-select: none; /* Make the entire page unselectable */
+}
+
+.bg-glass {
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  backdrop-filter: blur(2px);
+}
+
+.img {
+  aspect-ratio: 0.87;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+  border-radius: 30px;
+}
+
+p {
+  text-align: justify;
+  font: 50 20px Roboto, sans-serif;
+}
+
+h1 {
+  font: 50 30px Roboto, sans-serif;
+}
+
+h3 {
+  font: 50 20px Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.bullet-title {
+  color: #fff;
+  font: 50 30px Roboto, sans-serif;
+  text-align: start;
+}
+
+.bullet {
+  color: #fff;
+  align-self: end;
+  margin-top: 1rem !important;
+  font: 50 20px Roboto, sans-serif;
+  text-align: start;
+}
+
+.information {
+  font: 50 18px Roboto, sans-serif;
+  font-weight: bold;
+  user-select: text;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
